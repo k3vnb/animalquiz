@@ -1,5 +1,9 @@
-#chinchilla, #blue-jay, #lion, #elephant {
+#chinchilla, #blue-jay, #lion, #elephant{
 display: none;
+}
+
+.hideanimal {
+  display: none;
 }
 
 body {
@@ -9,4 +13,9 @@ body {
 .imagesizer {
   height: 200px;
   width: auto;
+}
+
+p {
+  font-weight: bold;
+  margin-top: 30px;
 }

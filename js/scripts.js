@@ -4,13 +4,17 @@ $(document).ready(function() {
     var size = $("select#size").val();
 
     if (size === "small" && color === "hot") {
-      alert("Chinchilla");
+      $("#lion, #blue-jay, #elephant").hide();
+      $("#chinchilla").show();
     } else if (size === "small" && color === "cool") {
-      alert("Blue-jay");
+      $("#lion, #chinchilla, #elephant").hide();
+      $("#blue-jay").show();
     } else if (size === "large" && color === "hot") {
-      alert("Lion");
+      $("#chinchilla, #blue-jay, #elephant").hide();
+      $("#lion").show();
     } else if (size === "large" && color === "cool") {
-      alert("Elephant");
+      $("#lion, #blue-jay, #chinchilla").hide();
+      $("#elephant").show();
     } else {
       alert("Please finish the quiz!")
     }
