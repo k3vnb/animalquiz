@@ -4,13 +4,13 @@ $(document).ready(function() {
     var size = $("select#size").val();
 
     if (size === "small" && color === "hot") {
-      alert("small/hot");
+      alert("Chinchilla");
     } else if (size === "small" && color === "cool") {
-      alert("small/cool");
+      alert("Blue-jay");
     } else if (size === "large" && color === "hot") {
-      alert("large/hot");
+      alert("Lion");
     } else if (size === "large" && color === "cool") {
-      alert("large/cool");
+      alert("Elephant");
     } else {
       alert("Please finish the quiz!")
     }
