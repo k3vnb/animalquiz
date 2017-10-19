@@ -3,12 +3,46 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Voting Info</title>
+    <title>What type of animal are you?</title>
   </head>
   <body>
-    
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
+          <h1 class="display-3">What Are You?</h1>
+          <p class="lead">Find out what kind of animal you are</p>
+        </div>
+      </div>
+      <div class="row">
+        <form id="animal-quiz">
+          <label for="size">How big are you?</label>
+          <select id="size">
+            <option value="none"></option>
+            <option value="small">Small</option>
+            <option value="large">Large</option>
+          </select>
+          <br>
+          <label for="color">What's your favorite color?</label>
+          <select id="color">
+            <option value="none"></option>
+            <option value="hot">Red</option>
+            <option value="hot">Yellow</option>
+            <option value="cool">Blue</option>
+            <option value="cool">Violet</option>
+          </select>
+          <br>
+          <button type="submit" class="btn btn-info">tell me what I am</button>
+        </form>
+      </div>
+      <div class="row" id="animal1">
+        <p>ssss</p>
+      </div>
+      <div class="row" id="animal2">
+        <p>ttt</p>
+      </div>
+    </div>
   </body>
 </html>
